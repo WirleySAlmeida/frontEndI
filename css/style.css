@@ -1,24 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
 body{
     background-color: navy;
     color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
 }
 
 header{
-    border: solid gray;
-    border-radius: 10px;
     text-align: center;
 }
 
 main{
-    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 button{
-    padding: 10px;
+    box-sizing: content-box;
+    width: 174px;
+    height: 34px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-size: 15px;
 }
 
-button:hover{
+#btn1{
+    background-color: #d57676;
+    color: white;
+}
+#btn2{
+    background-color: #cf6363;
+    color: white;
+}
+#btn3{
     background-color: indianred;
     color: white;
-    border-radius: 7px;
+}
+#btn4{
+    background-color: #c94f4f;
+    color: white;
+}
+#btn5{
+    background-color: #c33c3c;
+    color: white;
+}
+#btn6{
+    background-color: #b03636;
+    color: white;
+}
+
+#btn1:hover{
+    background-color: #999999;
+    color: white;
+}
+#btn2:hover{
+    background-color: #8c8c8c;
+    color: white;
+}
+#btn3:hover{
+    background-color: #808080;
+    color: white;
+}
+#btn4:hover{
+    background-color: #737373;
+    color: white;
+}
+#btn5:hover{
+    background-color: #666666;
+    color: white;
+}
+#btn6:hover{
+    background-color: #595959;
+    color: white;
 }
